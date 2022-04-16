@@ -1,7 +1,6 @@
 # WPG
-These scripts creates wallpapers, from randomly colored squares! Sounds interesting? here is some screenshots 
-![Screenshot1](/without_middles.PNG "Chained together, without middles")
-![Screenshot2](/chained_vertical.PNG "Chained together vertically")
+These scripts creates wallpapers, from randomly colored squares! Sounds interesting? here is a screenshot (there are more in the screenshots directory ;)) 
+![Screenshot1](/screenshots/without_middles.PNG "Chained together, without middles")
 # Usage
 Clone the repository
 
