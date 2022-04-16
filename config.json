@@ -1,0 +1,10 @@
+{
+    "bg": "282c34",
+    "colors": ["98be65", "51afef", "c678dd", "ecbe7b"],
+    "internal-gap": 20,
+    "external-gap": 10,
+    "square-width": 76,
+    "square-height": 52,
+    "width": 1920,
+    "height": 1080
+}
