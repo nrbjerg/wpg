@@ -13,5 +13,5 @@ Edit the `config.json` file to your liking, and run
 python grid.py
 ```
 And chose the settings you want to apply
-
-`
+## Contributing
+Feel free to clone and contribute what ever fetures you would like
