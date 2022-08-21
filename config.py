@@ -1,4 +1,7 @@
-# MODIFIED VERISON OF THE DOOM ONE COLOR SCHEME (WHICH IS BASED ON ATOM ONE / ONE DARK.)
+# wpg config file
+
+
+
 from typing import Tuple
 
 
@@ -10,7 +13,7 @@ def hex_to_rgb(hex_repr: str) -> Tuple[int]:
 
     return (r, g, b)
 
-
+# MODIFIED VERISON OF THE DOOM ONE COLOR SCHEME (WHICH IS BASED ON ATOM ONE / ONE DARK.)
 # NOTE: This has to be in RGB, use the hex_to_rgb function if needed.
 COLORS_AND_RATIOS = {
     (187, 194, 207): 2,  # FG
@@ -38,8 +41,8 @@ RATIOS = list(COLORS_AND_RATIOS.values())
 
 # PLEASE MAKE SURE THAT THE SCALE DIVIDES 1920 and 1080 or your perspective resolution.
 SCALE = 4
-WIDTH = 1920 // SCALE
-HEIGHT = 1080 // SCALE
+WIDTH = 1920  # SCALE
+HEIGHT = 1080 # SCALE
 CUTOF = 16  # If the group is larger than this it's not automatically given a new color.
 PASSES_REMOVING_NOISE = 2  # If you dont care about noise, set this to 0, the image generation will be much faster then.
 PROBABILITY_FOR_COLOR_TO_STAY_THE_SAME = 0.9998
